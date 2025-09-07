@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     
     'home',
     'calculator',
+    'qrcode',
     'pw_gen',
+
 ]
 
 MIDDLEWARE = [
