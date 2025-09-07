@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('home.urls')),
     path('calculator/', include('calculator.urls')),
     path('qrcode/', include('qrcode.urls')),
+    path('pw_gen/', include('pw_gen.urls')),
 ]
