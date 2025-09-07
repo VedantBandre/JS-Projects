@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'calculator',
     'qrcode',
     'pw_gen',
+    'pomodoro',
 
 ]
 
