@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     
     'home',
     'calculator',
+    'pw_gen',
 ]
 
 MIDDLEWARE = [
