@@ -21,29 +21,17 @@
   <main class="main-container">
     <section class="card-grid">
       
-      <a href="{% url 'calculator' %}" class="card">
+      
+      <a href="{% url 'pomodoro' %}" class="card">
         <div class="card-header">
-          <h3>Calculator</h3>
+          <h3>Pomodoro</h3>
           <span class="chevron">➜</span>
         </div>
         <div class="card-image">
-          <img src="{% static 'home/images/calculator.png' %}" alt="Preview of calculator">
+          <img src="{% static 'home/images/pomodoro.png' %}" alt="Preview of pomodoro">
         </div>
         <div class="card-footer">
-          <p>A simple calculator app</p>
-        </div>
-      </a>
-
-      <a href="{% url 'pw_gen' %}" class="card">
-        <div class="card-header">
-          <h3>Password Generator</h3>
-          <span class="chevron">➜</span>
-        </div>
-        <div class="card-image">
-          <img src="{% static 'home/images/pw_gen.png' %}" alt="Preview of pw_gen">
-        </div>
-        <div class="card-footer">
-          <p>Random Password generator</p>
+          <p>A Pomodoro timer</p>
         </div>
       </a>
 
@@ -62,16 +50,30 @@
       </a>
 
       
-      <a href="/project4" class="card">
+      <a href="{% url 'pw_gen' %}" class="card">
         <div class="card-header">
-          <h3>Project 4</h3>
+          <h3>Password Generator</h3>
           <span class="chevron">➜</span>
         </div>
         <div class="card-image">
-          <img src="{% static 'home/images/project4.png' %}" alt="Preview of Project 4">
+          <img src="{% static 'home/images/pw_gen.png' %}" alt="Preview of pw_gen">
         </div>
         <div class="card-footer">
-          <p>Short description for Project 4.</p>
+          <p>Random Password generator</p>
+        </div>
+      </a>
+
+      
+      <a href="{% url 'calculator' %}" class="card">
+        <div class="card-header">
+          <h3>Calculator</h3>
+          <span class="chevron">➜</span>
+        </div>
+        <div class="card-image">
+          <img src="{% static 'home/images/calculator.png' %}" alt="Preview of calculator">
+        </div>
+        <div class="card-footer">
+          <p>A simple calculator app</p>
         </div>
       </a>
       
