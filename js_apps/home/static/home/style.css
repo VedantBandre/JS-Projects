@@ -10,7 +10,7 @@ body {
 
 /* Header */
 .header {
-  padding: 2.5rem 1rem;
+  padding: 1.5rem 1rem;
   text-align: center;
 }
 .header h1 {
@@ -28,7 +28,7 @@ body {
 .card-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Always 2 columns */
-  gap: 1.5rem;
+  gap: 1rem;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -97,7 +97,7 @@ body {
 
 /* Card Footer */
 .card-footer {
-  padding: 1rem 1.25rem 1.25rem;
+  padding: 0rem 1.25rem .75rem;
 }
 .card-footer p {
   font-size: 0.875rem;
